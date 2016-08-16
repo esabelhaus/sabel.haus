@@ -25,7 +25,8 @@
   "homepage": "https://gitlab.com/esabelhaus/sabel.haus#README",
   "dependencies": {
     "express": "^4.14.0",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "pug": "^2.0.0-beta5"
   },
   "devDependencies": {
     "node-sass": "^3.8.0",
