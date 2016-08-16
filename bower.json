@@ -1,0 +1,29 @@
+{
+  "name": "sabel.haus",
+  "description": "express app for running sabel.haus",
+  "main": "app.js",
+  "authors": [
+    "Eric Sabelhaus"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "web",
+    "express",
+    "foundation",
+    "html",
+    "css"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.2.3",
+    "foundation-icons": "*"
+  }
+}

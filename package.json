@@ -1,0 +1,35 @@
+{
+  "name": "sabel.haus",
+  "version": "1.0.0",
+  "description": "express app for running sabel.haus",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/esabelhaus/sabel.haus.git"
+  },
+  "keywords": [
+    "web",
+    "express",
+    "foundation",
+    "html",
+    "css"
+  ],
+  "author": "Eric Sabelhaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/esabelhaus/sabel.haus/issues"
+  },
+  "homepage": "https://gitlab.com/esabelhaus/sabel.haus#README",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "node-sass": "^3.8.0",
+    "bower": "^1.7.9",
+    "mocha": "^3.0.2"
+  }
+}
