@@ -1,7 +1,8 @@
-var express = require('express');
+var express = require('express'),
+    hamlJS = require('hamljs')
 var app = express();
 
-app.set('view engine', 'pug');
+app.engine('.haml', hamlJS.renderFile);
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function(req, res) {
